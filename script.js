@@ -3,7 +3,9 @@
 $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
-    nav: true,
+    stagePadding: 70,
+    nav: false,
+    animateOut: 'fadeOut',
     responsive: {
         0: {
             items: 1
@@ -11,8 +13,15 @@ $('.owl-carousel').owlCarousel({
         600: {
             items: 3
         },
+        768: {
+            items: 3,
+
+        },
         1000: {
-            items: 5
+            items: 3,
+        },
+        1440: {
+            items: 4
         }
     }
 })
