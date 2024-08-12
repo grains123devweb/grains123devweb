@@ -1,0 +1,15 @@
+git add .
+git commit -m "Your commit message here"
+git push origin main
+
+
+
+
+
+new :
+
+git init
+git remote add origin https://github.com/yourusername/webrepo.git
+git add .
+git commit -m "Your commit message here"
+git push origin main

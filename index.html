@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TGB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2cd88e99b2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- --------- Navbar --------- -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-custom">
+        <div class=" container-fluid">
+            <img src="./Resourses/TGB_logo.webp" alt="TGB" width="35" id="nav-mg">
+            <div class="d-flex align-items-center">
+                <div class="user-log me-2 d-lg-none">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-lg-around justify-content-end"
+                id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Farmers</a></li>
+                            <li><a class="dropdown-item" href="#">Farmers</a></li>
+                            <li><a class="dropdown-item" href="#">Farmers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Farmers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
+                <div class="user-log ms-3 d-none d-lg-block">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- --------- CONTAINER 1 --------- -->
+
+    <!-- carousel starts is here -->
+    <div class="container-fluid">
+        <div class="carousel-container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://picsum.photos/2100/900" class="d-block w-100" alt="Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/2100/900" class="d-block w-100" alt="Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/2100/900" class="d-block w-100" alt="Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/2100/900" class="d-block w-100" alt="Image">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-border"></div>
+        </div>
+    </div>
+
+
+    <!-- --------- CONTAINER 2 --------- -->
+
+    <div class="container-fluid">
+        <div class="img-head">
+            <div class="farmer-img">
+                <img src="https://picsum.photos/300/250" alt="Farmer Image">
+            </div>
+            <div class="farmer-headline">
+                <!-- Headline gets here -->
+                <h2>There is No Need For Middle Person</h2>
+                <button type="submit" id="buy-sell">Buy</button>
+                <button type="submit" id="sell-buy">Sell</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------- CONTAINER 3 --------- -->
+
+    <div class="external-carousel">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="https://picsum.photos/300/250" alt="">
+                <h4>1</h4>
+            </div>
+            <div class="item"><img src="https://picsum.photos/300/250" alt="">
+                <h4>2</h4>
+            </div>
+            <div class="item"><img src="https://picsum.photos/300/250" alt="">
+                <h4>3</h4>
+            </div>
+            <div class="item"><img src="https://picsum.photos/300/250" alt="">
+                <h4>4</h4>
+            </div>
+            <div class="item"><img src="https://picsum.photos/300/250" alt="">
+                <h4>5</h4>
+            </div>
+            <div class="item"><img src="https://picsum.photos/300/250" alt="">
+                <h4>6</h4>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="user-login-row">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-user"></i>
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
