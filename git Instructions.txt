@@ -1,0 +1,35 @@
+
+// clone main repo to your github
+
+git clone https://github.com/grains123devweb/grains123devweb.git
+cd grains123devweb
+code .
+git checkout -b devesh-TGB   (here create your branch name and add TGB with it)
+git add .
+git commit -m "UPDATE"
+git push origin devesh-TGB    (now push you branch with your selected branch name with TGB)
+
+
+
+
+// always use this code in atleast 2 times in a day.
+// push to your own branch :
+
+git add .
+git commit -m "Your commit message here"
+git push origin (your branch name with TGB)
+
+
+
+
+
+
+// this code will be pushed after everything is perfectly running well and responsive.
+// commit to main branch after review of code :
+
+git add .
+git commit -m "UPDATE"
+git checkout main
+git pull origin main
+git merge devesh-TGB  (here it will be your branch name)
+git push origin main
