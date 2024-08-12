@@ -83,7 +83,7 @@
     font-size: 4.5rem;
     font-family: "League Spartan", "Poppins", sans-serif;
     text-align: end;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1px;
     color: #7cf071;
 
 }
@@ -107,6 +107,7 @@
     display: flex;
     align-items: center;
     margin-top: 50px;
+    margin: 0 5%;
     height: 60vh;
 }
 
@@ -145,9 +146,42 @@
 
 /*------------- CONTAINER 4 ------------- */
 
+.farmer-said-container {
+    width: 100%;
+    height: 70vh;
+}
 
+.middle-FS-cont {
+    width: 90%;
+    display: flex;
+    margin: 0 5%;
+}
 
+.left-cont {
+    margin: auto 0;
+    padding-right: 300px;
+}
 
+.left-cont h1 {
+    font-family: "League Spartan", "Poppins", sans-serif;
+    color: #7cf071;
+    font-weight: 600;
+    text-align: start;
+}
+
+.left-cont p {
+    text-align: start;
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+}
+
+.pp {
+    padding: 5px;
+}
+
+.right-cont {
+    display: flex;
+}
 
 
 
@@ -223,6 +257,31 @@
     .carousel-border {
         padding: 15px;
     }
+
+
+    .middle-FS-cont {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .left-cont {
+        padding-right: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .left-cont h1 {
+        font-size: 2.5rem;
+    }
+
+    .right-cont {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -251,6 +310,31 @@
         margin-top: 1.5rem;
         width: 100%;
     }
+
+
+    .middle-FS-cont {
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+
+    .left-cont {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .left-cont h1 {
+        font-size: 2rem;
+    }
+
+    .left-cont p {
+        font-size: medium;
+    }
+
+    .right-cont {
+        margin-top: 15px;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -273,8 +357,9 @@
     }
 
     .farmer-headline h2 {
-        font-size: 2rem;
+        font-size: 2.4rem;
         margin: 0 auto;
+        font-weight: 500;
     }
 
     .farmer-img img {
@@ -286,5 +371,45 @@
     #buy-sell,
     #sell-buy {
         width: 100%;
+    }
+
+    .farmer-said-container {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .middle-FS-cont {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        flex-direction: column;
+    }
+
+    .left-cont {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .left-cont h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .left-cont p {
+        font-size: 15px;
+        letter-spacing: 0.3px;
+    }
+
+    .pp {
+        padding: 3px;
+    }
+
+    .right-cont {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .right-cont img {
+        width: 150px;
     }
 }
