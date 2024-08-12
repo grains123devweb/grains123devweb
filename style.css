@@ -131,7 +131,7 @@
 }
 
 .card-content {
-    padding: 15px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -140,6 +140,11 @@
     font-size: 16px;
     color: #333;
 }
+
+
+
+/*------------- CONTAINER 4 ------------- */
+
 
 
 
@@ -259,7 +264,7 @@
     }
 
     .carousel-inner img {
-        height: auto;
+        height: 250px;
         object-fit: cover;
     }
 
@@ -269,6 +274,13 @@
 
     .farmer-headline h2 {
         font-size: 2rem;
+        margin: 0 auto;
+    }
+
+    .farmer-img img {
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
     }
 
     #buy-sell,
