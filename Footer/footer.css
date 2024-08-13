@@ -1,0 +1,96 @@
+a{
+    text-decoration: none; 
+}
+
+#footer {
+    background-color: rgba(46, 44, 44, 0.245);
+    padding: 50px;
+    margin-top: 8rem;
+    font-family: "League Spartan", "Poppins", sans-serif;
+}
+
+#footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.5rem;
+}
+
+#footer .box-container .box h3 {
+    font-size: 1rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+#footer .box-container .box h3 i {
+    color: green;
+}
+
+#footer .box-container .box .link {
+    display: block;
+    font-size: 1rem;
+    color: blue;
+    padding: 1rem 0;
+}
+
+#footer .box-container .box .link i {
+    color: green;
+    padding-right: .5rem;
+}
+
+#footer .box-container .box .link:hover {
+    padding-right: 2rem;
+}
+
+#footer .box-container .box .share a {
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color: black;
+    margin-left: .2rem;
+    background: #eee;
+    text-align: center;
+}
+
+#footer .box-container .box .share a:hover {
+    background: green;
+    color: white;
+}
+
+#footer .box-container .box .email {
+    width: 90%;
+    margin: .4rem 0;
+    padding: 1rem;
+    background: #eee;
+    border-radius: .5rem;
+    font-size: 1rem;
+    color: black;
+    text-transform: none;
+}
+
+#footer .box-container .box .payment-img {
+    margin-top: 2rem;
+    height: 8rem;
+}
+
+#footer .box-container .box p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+#footer .credit {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: black;
+    border-top: var(--border);
+}
+
+#footer .credit span {
+    color: green;
+}
