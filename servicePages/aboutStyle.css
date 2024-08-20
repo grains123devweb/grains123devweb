@@ -280,7 +280,7 @@ body {
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 500px) {
     .member {
         width: calc(100% - 20px);
     }

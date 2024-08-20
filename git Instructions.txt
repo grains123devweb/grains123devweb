@@ -16,7 +16,7 @@ git push origin devesh-TGB    (now push you branch with your selected branch nam
 // push to your own branch :
 
 git add .
-git commit -m "Your commit message here"
+git commit -m "Just Updated"
 git push origin (your branch name with TGB)
 
 
