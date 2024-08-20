@@ -27,4 +27,10 @@ $('.owl-carousel').owlCarousel({
 })
 
 
+// Navbar User LOGINS
+
+const userIcon = document.getElementById('userIcon');
+userIcon.addEventListener('click', function () {
+    window.location.href = 'index.html';
+});
 

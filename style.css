@@ -9,10 +9,17 @@
 }
 
 .user-log i {
-    margin: 0 8px;
+    margin: 0 10px;
     font-size: 18px;
     color: #5A4D4D;
     cursor: pointer;
+}
+
+.user-log i:hover{
+    background-color: #2828281d;
+    padding: 10px;
+    margin: 0.1px;
+    border-radius: 100%;
 }
 
 .bg-custom {
@@ -211,7 +218,7 @@
 }
 
 .feature-box .highlight {
-    font-size: 28px;
+    font-size: 2rem;
     color: #4CAF50;
 }
 
