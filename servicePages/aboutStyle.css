@@ -127,13 +127,13 @@ body {
 }
 
 .mission h2 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 30px;
     font-weight: 600;
 }
 
 .mission p {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.6;
     max-width: 800px;
     margin: 0 auto 20px;
@@ -286,7 +286,9 @@ body {
     }
 
     .heading h1 {
-        font-size: 28px;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 20px;
     }
 
     .heading p {
@@ -304,7 +306,7 @@ body {
     }
 
     .about-text h2 {
-        font-size: 28px;
+        font-size: 30px;
         font-weight: 600;
     }
 
@@ -313,11 +315,13 @@ body {
     }
 
     .mission h2 {
-        font-size: 28px;
+        font-size: 30px;
         font-weight: 600;
     }
 
     .mission p {
-        font-size: 18px;
+        font-size: 17px;
+        text-align: start;
+        line-height: 2rem;
     }
 }
